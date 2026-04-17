@@ -33,6 +33,8 @@ router = DefaultRouter()
 router.register('usuario', UsuarioViewSet, basename='usuarios'), # type: ignore
 
 urlpatterns = [
+    path('api/', include(router.urls)),
+    
     path('admin/', admin.site.urls),
     path('api/auth/login/', TokenObtainPairView.as_view(), name='login'),
     path('api/auth/refresh/', TokenRefreshView.as_view(), name='refresh token'),
