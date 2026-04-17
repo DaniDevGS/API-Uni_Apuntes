@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.env
+
+# Database
+db.sqlite3
+*.db
+*.sqlite3
+
+# Agent & AI Files
+.agents/
+skills-lock.json
+
+# Local Documentation & Chat Logs
+Refactoring Notes Database Models.md
+analisis_arquitectura.md
+app.md
+tareas_pendientes.md
+context.md
+
+# Media and Static
+media/
+staticfiles/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
